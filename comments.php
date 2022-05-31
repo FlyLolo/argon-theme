@@ -49,7 +49,7 @@
 <?php if (!comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' )) {?>
 	<div id="post_comment" class="card shadow-sm">
 		<div class="card-body">
-			<span><?php _e('本文评论已关闭', 'argon');?></span>
+			<span><?php _e('本文评论3333333333已关闭', 'argon');?></span>
 		</div>
 	</div>
 <?php } else { ?>
